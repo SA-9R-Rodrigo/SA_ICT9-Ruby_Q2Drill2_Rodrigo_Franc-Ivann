@@ -1,0 +1,84 @@
+/* Gill Sans for headings and navigation links */
+h1, h2, h3, h4, h5, h6, .nav-link, .navbar-brand {
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+}
+
+/* Arial for body text, paragraphs, buttons, and forms */
+body, p, a, .btn, input, select, textarea, label {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #222222;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #0b2545 !important;
+  padding: 12px 20px;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-size: 17px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #ffc107 !important;
+}
+
+/* Top Welcome Banner */
+.banner {
+  background-color: #134074;
+  border-bottom: 5px solid #ffc107;
+  padding: 60px 20px !important;
+}
+
+/* Image inside sections */
+.img-fluid {
+  border: 3px solid #134074;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Program Cards */
+.card {
+  border-top: 5px solid #134074;
+  background-color: #ffffff;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  border-top: 5px solid #ffc107;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: #0b2545;
+  font-size: 23px;
+}
+
+.card-text {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #134074;
+  border-color: #134074;
+}
+
+.btn-primary:hover {
+  background-color: #0b2545;
+  border-color: #0b2545;
+}
+
+/* Footer */
+footer {
+  background-color: #0b2545 !important;
+  border-top: 4px solid #ffc107;
+  padding: 20px !important;
+}
